@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+        <link rel="stylesheet" href="owl-carousel/owl.theme.css">
+        <script src="jquery-3.1.1.min.js"></script>
+        <script src="owl-carousel/owl.carousel.js"></script>
+
+        <title>Depth for Twitter</title>
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="images">
+                <div class="logo"></div>
+                <a href="https://itunes.apple.com/us/app/onesquare-for-foursquare/id1048899785"><div class="download_icon"></div></a>
+
+                <div class="introduction">
+                    <h1>Depth for Twitter</h1>
+                    <h2>A simple yet efficient Twitter client</h2>
+                    <p>
+                    This is not a competitor of other full-functional Twitter clients like Tweetbot.
+                    </p>
+                </div>
+            </div>
+
+            <div id="previewer" class="carousel_previewer">
+              <script type="text/javascript">
+                  $(document).ready(function() {
+                    $("#carousel").owlCarousel({
+                        items : 1,
+                        lazyLoad : true,
+                        navigation : false,
+                        navigationText :  false,
+                        pagination : true,
+                        singleItem: true
+                    });
+                  });
+              </script>
+
+              <div id="carousel" class="owl-carousel">
+                <div class="item"> <img src='preview/Home_timeline.png'/> </div>
+                <div class="item"> <img src='preview/Tweet_detail.png'/> </div>
+                <div class="item"> <img src='preview/Shortcut_dark.png'/> </div>
+                <div class="item"> <img src='preview/User.png'/> </div>
+                <div class="item"> <img src='preview/Compose.png'/> </div>
+              </div>
+            </div>
+
+            <div class="footer">
+                <p>Copyright © Yin Tan. All rights reserved.</p>
+                <p>Apple and the Apple logo are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc.</p>
+            </div>
+        </div>
+
+    </body>
+</html>
