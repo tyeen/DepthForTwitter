@@ -10,7 +10,7 @@ body {
     margin-top: 3%;
 }
 
-.images {
+.main {
     width: 40%;
     height: 600px;
     left: 10%;
@@ -107,7 +107,7 @@ p {
         margin-top: 0;
     }
 
-    .images {
+    .main {
         position: static;
         width: 100%;
         height: auto;
