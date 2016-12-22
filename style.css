@@ -117,8 +117,8 @@ p {
     }
 
     .logo {
-        width: 256pt;
-        height: 256pt;
+        width: 160pt;
+        height: 160pt;
         right: 0;
         left: 0;
         margin-left: auto;
@@ -126,8 +126,8 @@ p {
     }
 
     .download_icon {
-        width: 256pt;
-        height: 98pt;
+        width: 200pt;
+        height: 80pt;
         position: relative;
         background-repeat: no-repeat;
         margin: auto;
@@ -162,7 +162,6 @@ p {
     p {
         padding-left: 16px;
         padding-right: 16px;
-        text-align: center;
     }
 }
 
